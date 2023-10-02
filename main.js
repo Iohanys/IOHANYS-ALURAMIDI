@@ -26,6 +26,12 @@ function tocaSomClap () {
 document.querySelector('.tecla_clap').onclick = tocaSomClap
 
 
+function tocaSomToim () {
+   document.querySelector('#som_tecla_toim').play();
+  
+}
+document.querySelector('.tecla_toim').onclick = tocaSomToim
+
 
 function tocaSomSplash () {
    document.querySelector('#som_tecla_splash').play();
